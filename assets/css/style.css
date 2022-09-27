@@ -1,0 +1,58 @@
+:root {
+    --headline-color: #b31b1b;
+    --text-color: #222222;
+    --background-color: #ffffff;
+    --site-font: sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+    font-family: var(--site-font);
+}
+
+/* Nav Bar and Header */
+
+
+
+header {
+    height: 75px;
+    width: 100%;
+    line-height: 60px;
+    background-color: var(--headline-color);
+}
+
+.nav-bar {
+    text-align: right;
+    position: fixed;
+    top: 0;
+    right: 15px;
+}
+
+li {
+    display: inline;
+    list-style: none;
+    margin-right: 15px;
+    font-size: 125%;
+}
+
+li a {
+    color: var(--background-color);
+    text-decoration: none;
+}
+
+.my-name {
+    text-align: left;
+    margin: 0 0 0px 25px;
+    color: var(--background-color);
+}
+
+/* Image */
+
+#profile-pic {
+    display: block;
+    margin: 75px auto;
+    border-radius: 50px;
+}
