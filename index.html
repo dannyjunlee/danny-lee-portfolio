@@ -25,15 +25,39 @@
     </header>
 
     <main>
-        
+        <!-- Background photo -->
+        <img src="https://localist-images.azureedge.net/photos/16584/original/f689d508a2a62b90e248208855edbee249792e11.jpg" alt="Libe Slope" id="back-photo"/>
         <!-- Photo -->
         <img src="./assets/images/profile-picture.PNG" alt="Danny Lee profile picture" id="profile-pic" />
         
         <!-- Work -->
             <!-- When clicked through nav bar, that image should be larger than others -->
             <!-- When image is clicked, you should be redirected to deployed application -->
+        <section class="work">
+            <h2><b>My Work (Deployed Applications):</b></h2>
+            <a href="https://dannyjunlee.github.io/code-refactor/" target="_blank">SEO Code Refactor</a>
+            <p>More to come.</p>
+        </section>
         
         <!-- Contact Info -->
+        <section class="contact">
+            <h2><b>Contact Me</b></h2>
+            <form>
+                <ul>
+                    <li>
+                        <label class="form-text" for="name">Name:</label>
+                        <input type="text" id="name" name="user-name">
+                    </li>
+                    <li>
+                        <label class="form-text" for="email">Email:</label>
+                        <input type="text" id="email" name="user-email">
+                    </li>
+                </ul>
+                <div class="button">
+                    <button type="submit">SEND</button>
+                </div>
+            </form>
+        </section>
 
         <!-- Responsive layout that adapts to viewport (different devices) -->
     </main>

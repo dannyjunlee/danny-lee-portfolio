@@ -51,8 +51,86 @@ li a {
 
 /* Image */
 
+#back-photo {
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    height: 80vh;
+    opacity: 0.5;
+}
+
 #profile-pic {
-    display: block;
-    margin: 75px auto;
+    display: flex;
+    margin: 50px auto;
     border-radius: 50px;
+}
+
+/* Work */
+
+.work {
+    display: block;
+    margin-left: 500px;
+    text-align: left;
+    margin-bottom: 10px;
+    border: 1px solid var(--headline-color);
+    width: 50%;
+}
+
+h2 {
+    font-size: 110%;
+}
+
+/* Contact Info */
+
+.contact h2 {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid var(--headline-color);
+    border-radius: 15px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid var(--text-color);
+    height: 23px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 15px;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: var(--headline-color);
+    color: var(--background-color);
+    border: 0.5px solid var(--background-color);
+}
+
+/* Footer */
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0%;
+    width: 100%;
+    height: 12vh;
+    background: var(--headline-color);
+    color: var(--background-color);
+}
+
+h4 {
+    margin-top: 35px;
 }
