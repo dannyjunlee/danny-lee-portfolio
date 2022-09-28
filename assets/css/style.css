@@ -69,8 +69,8 @@ li a {
 
 .work {
     display: block;
-    margin-left: 500px;
     text-align: left;
+    margin-left: 25%;
     margin-bottom: 10px;
     border: 1px solid var(--headline-color);
     width: 50%;
@@ -133,4 +133,41 @@ footer {
 
 h4 {
     margin-top: 35px;
+}
+
+/* Tablet View */
+
+@media screen and (max-width: 1100px) {
+    .my-name {
+        text-align: center;
+        margin-left: 0;
+    }
+    header {
+        height: 125px;
+    }
+    .nav-bar {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        margin: 15px 0 0 0;
+        justify-content: center;
+    }
+}
+
+/* Mobile View */
+
+@media screen and (max-width: 650px) {
+    #profile-pic {
+        height: 35vh;
+    }
+    .work {
+        width: 80vh;
+        margin-left: 0;
+    }
+    form {
+        width: 100%;
+    }
+    input {
+        width: 60%;
+    }
 }
